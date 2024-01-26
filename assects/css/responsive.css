@@ -1,0 +1,319 @@
+/* xxl */
+@media (min-width:1400px){}
+
+/* xl */
+@media (min-width:1200px) and (max-width:1399.98px){
+    #banner .banner_slider_items {
+        height: 680px;
+    }
+    #banner ul.banner_slider_dots {
+        left: -15px;
+        bottom: 100px;
+    }
+    #banner .banner_slider .banner_slider_items h2{
+        font-size: 50px;
+    }
+    .offer_info {
+        margin: 50px 0;
+    }
+    #service .service_img {
+        height: 50px;
+        width: 50px;
+        line-height: 45px; 
+    }
+    /* ==========================about page================== */
+    /* ==========================about page================== */
+
+    
+}
+
+/* lg */
+@media (min-width:992px) and (max-width:1199.98px){
+    #top_bar .top_bar_right{
+        display: none !important;
+       }
+
+       #banner .banner_slider .banner_slider_items h2{
+        font-size: 40px;
+        margin: 5px 0;
+     }
+        #banner .banner_slider .banner_slider_items p{
+        margin-bottom: 20px;
+        } 
+        #banner ul.banner_slider_dots {
+            bottom: 235px;
+        }
+
+        #banner .banner_slider_items {
+            height: 480px;
+        }
+        #banner ul.banner_slider_dots {
+            bottom: 80px;
+        }
+        #deal_day .deals_count {
+            left: 28%;
+        }
+        #New_arrival_product_banner {
+            padding: 45px;
+            
+        }
+        #New_arrival_product_banner h3 {
+            font-size: 28px;
+           
+        }
+        #New_arrival_product_banner p {
+            line-height: 26px;
+            padding: 10px 0;
+        }
+        #service .service_box:last-child {
+            border-right: 4px solid var(--bg-color-dark);
+        }
+}
+  
+
+/* md */
+@media (min-width:768px) and (max-width:991.98px){
+    #top_bar{
+        display: none;
+    }
+    #banner .banner_slider_items {
+        height: 450px;
+    }
+    #banner .banner_slider .banner_slider_items h2{
+        font-size: 35px;
+        margin:0;
+     }
+     #banner ul.banner_slider_dots {
+        bottom: 70px;
+    }
+    #Feature .feature_items {
+        width:50%;
+    }
+    #deal_day .deals_count {
+        left: 20%;
+    }
+    #New_arrival_product_banner h3 {
+        font-size: 30px;
+        margin-left: -50px;
+    }
+    #New_arrival_product_banner p {
+        margin-left: -50px;
+    }
+    #New_arrival_product_banner a {
+        margin-left: -50px;
+    }
+    #New_arrival_product_banner {
+        padding: 100px;
+    }
+    .offer_info {
+        margin: 45px 0;
+    }
+    #special_offer h3 {
+        font-size: 29px;
+        margin: 10px 0;
+    }
+    #special_offer p {
+        font-size: 13px;
+        line-height: 23px;
+        margin: 13px 0 25px 0;
+    }
+    #service .service_box:last-child {
+        border-right: 4px solid var(--bg-color-dark);
+    }
+}
+/* sm */
+@media (min-width:576px) and (max-width:767.98px){
+    #top_bar{
+        display: none;
+    }
+    #banner .banner_slider_items {
+        height: 400px;
+    }
+    #banner .banner_slider .banner_slider_items h2{
+        font-size: 31px;
+        margin: -16px 0;
+     }
+     #banner ul.banner_slider_dots {
+        bottom: 60px;
+    }
+
+    #New_arrival_product_banner {
+        padding: 40px;
+    }
+    #New_arrival_product_banner h3 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    #New_arrival_product_banner p {
+        line-height: 22px;
+        font-size: 14px;
+        padding-bottom: 23px;
+    }
+    #New_arrival_product_banner a {
+        font-size: 15px;
+        padding: 8px 16px;
+    }
+    #deal_day .deals_count {
+        left: 10%;
+    }
+    .offer_info {
+        margin: 30px 0;
+    }
+    #special_offer h3 {
+        font-size: 22px;
+        line-height: 33px;
+        margin: 13px 0;
+    }
+    #special_offer p {
+        font-size: 10px;
+        line-height: 17px;
+        margin: 10px 0 25px -3px;
+    }
+    #service .service_all {
+        padding: 0;
+        margin-top: -135px;
+    }
+    #service .service_info h5 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    footer .footer_first .visa{
+        margin-left: 31px;
+    }
+    footer .footer_first .m_logo {
+        margin-right:30px;
+    }
+}
+        
+/* xs */
+/* @media (min-width:350px){
+    #top_bar{
+        display: none !important;
+    }
+    #banner .banner_slider_items {
+        height: 350px;
+    }
+    #banner .banner_slider .banner_slider_items h2 {
+        font-size: 28px;
+        margin: 5px 0;
+        line-height: 35px;
+    }
+     #banner ul.banner_slider_dots {
+        bottom: 25px;
+    }
+    #New_arrival_product_banner {
+        padding: 36px;
+    }
+    #New_arrival_product_banner h3 {
+        font-size: 29px;
+        line-height: 41px;
+    }
+    #New_arrival_product_banner p {
+        line-height: 25px;
+        padding: 5px 0 19px 0;
+    }
+    #deal_day .deal_day_box_slider .deal_day_box_item {
+        padding: 6px;
+    }
+    #new_arrival_product h2 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    #best_seller_product h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    #deal_day h2 {
+        font-size: 25px;
+        line-height: 33px;
+    }
+    #deal_day #count_down {
+        padding: 7px 155px;
+        margin: 0px 0 -50px 0;
+    }
+    #deal_day .deal_day_box_item h3 {
+        font-size: 22px;
+        line-height: 31px;
+        margin: 15px 0 0 13px;
+    }
+    #deal_day .deal_day_box_item h4 {
+        line-height: 21px;
+        padding: 25px 0 0 15px;
+    }
+    #deal_day .deal_day_box_item p {
+        line-height: 21px;
+        padding: 8px 0 0 10px;
+    }
+    #deal_day .deal_day_box_item h5, #deal_day .deal_day_box_item h5 ins {
+        font-size: 16px;
+        margin: 4px 0 12px 5px;
+    }
+    #deal_day .deal_day_box_item a {
+        line-height: 6px;
+        padding: 7px 11px;
+        margin: 8px 0px 0px 8px;
+    }
+    .offer_info {
+        margin: 0px 0;
+    }
+    #special_offer h3 {
+        font-size: 18px;
+        line-height: 25px;
+        margin: 3px 0;
+    }
+    #special_offer p {
+        font-size: 12px;
+        line-height: 17px;
+        margin: 14px 0 15px 0;
+    }
+    #special_offer h4 {
+        font-size: 13px;
+        padding-top: 3px;
+    }
+    #special_offer a {
+        font-size: 12px;
+        padding: 9px 5px;
+    }
+    #special_offer .special_offer_video a {
+        width: 45px;
+        height: 45px;
+       
+    }
+    #latest_news h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    #latest_news {
+        margin: 50px 0;
+    }
+    #service .service_all {
+        padding: -1px 38px !important;
+      
+    }
+    #service .service_all {
+        padding: 0px 18px 0px 5px;
+    }
+    #service .service_box:last-child {
+        border-right: 4px solid var(--bg-color-dark);
+    }
+    #service .service_info h5 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    #service .service_img {
+        height: 55px;
+        width: 55px;
+        line-height: 51px;
+        font-size: 25px;
+    }
+    footer .footer_first .footer_social_icon ul li a{
+        margin-right: 25px;
+    }
+    footer .footer_first .m_logo {
+        margin: 0px 0 15px 90px;
+    }
+    footer .footer_first .visa{
+        margin-left: 45px;
+
+    }
+} */
